@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav{
+  width: 80%;
+  margin: auto;
+  padding-left: 6rem;
+}
+
+nav, ul, li{
+  display: inline-block;
+  justify-content: end;
+  padding-left: 2rem;
+  margin-top: 1rem; 
+}
+
+nav ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+  font-weight: bold;
+
+}
+
+.detel {
+  padding-left: 6rem;
+  margin-top: 15rem;;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.detel h1 {
+  text-align: left;
+  color: white;
+    font-size: 3rem;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+  margin-bottom: 20px;
+}
+
+.detel h2 {
+  text-align: left;
+  color: white;
+  text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+.detel h3 {
+  text-align: center;
+  font-size: 4rem;
+}
+.detel a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+span {
+  color: rgb(255, 196, 0);
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.projects a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: red;
+  transition: 0.5s ease-in-out;
+}
+
+.project-container img {
+  height: 20rem;
+  width: 24rem;
+}
+
+.project-container {
+  text-align: center;
+  color: white;
+  text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+  font-size: 1.4rem;      
+}
+
+.info {
+  margin-top: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.projectText {
+  color: white;
+    text-shadow:
+   0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+     0 -0.07em black;
+     margin-bottom: 2rem;
+}
